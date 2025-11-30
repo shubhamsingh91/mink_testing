@@ -11,8 +11,16 @@ uv sync
 ## Run
 
 ```bash
+# Normal mode (fast)
 uv run python main.py
+
+# Verbose mode (detailed iteration output + convergence plot)
+uv run python main.py -v
 ```
+
+The `-v` flag enables:
+- Per-iteration printout of error norm, delta-q, and QP cost
+- Saves a log-scale convergence plot to `convergence.png`
 
 ## Overview
 
