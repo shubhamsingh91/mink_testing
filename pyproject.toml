@@ -1,0 +1,15 @@
+[project]
+name = "mink-test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "mink>=0.0.13",
+    "numpy>=2.2.6",
+    "pin>=3.8.0",
+    "pybullet>=3.2.7",
+    "robot-descriptions>=1.21.0",
+    "scipy>=1.15.3",
+]
